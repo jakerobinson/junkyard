@@ -9,12 +9,14 @@ This is a urandom-as-a-service sinatra app designed to act as a single node behi
 
 ## Running
 
-1. Clone repo
-`git clone https://github.com/jakerobinson/u-so-random.git`
+1. `git clone https://github.com/jakerobinson/u-so-random.git`
 
-2. Run Sinatra app
-`ruby u-so-random/main.rb`
+2. `cd u-so-random`
 
-3. Open Web browser to `<yourIP>:3000`
+3. `bundle install`
 
-4. For JSON or XML, use a REST client and set your Accept header to `application/json` or `application/xml`
+4. `ruby u-so-random/main.rb`
+
+5. Open Web browser to `<yourIP>:3000`
+
+6. For JSON or XML, use a REST client and set your Accept header to `application/json` or `application/xml`
