@@ -3,6 +3,7 @@ require 'sinatra/contrib'
 require 'securerandom'
 require 'json'
 require 'nokogiri'
+require 'haml'
 
 set :bind, '0.0.0.0'
 set :port, 3000
